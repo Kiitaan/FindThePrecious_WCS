@@ -1,0 +1,241 @@
+/* navbar */
+
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+      background-color: #fc6020;
+    }
+
+#no-border {
+  border-left: none;
+}
+
+.nav_text {
+  color:white;
+  font-family: "PartyBusiness"; Arial;
+  font-size: 35px;
+  margin-top: 1%;
+  border-left: 2px solid white;
+  }
+
+.navbar-brand {
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+
+/* caroussel */
+
+.carrousel_text {
+  position:absolute;
+  top:2em;
+  color:white;
+  font-size:5em;
+  width:90%;
+  font-family: "PartyBusiness"; Arial;
+  left: 18%;
+  top: 30%;
+}
+
+@font-face {
+ font-family: "PartyBusiness";
+ src: url("/fonts/PartyBusiness-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/PartyBusiness-Regular-webfont.woff") format("woff");
+}
+
+/* Section thumbnails */
+
+.thumbnails {
+  background-color: #eeefe3;
+}
+
+@font-face {
+ font-family: "Aniron-Bold";
+ src: url("/fonts/Aniron-Bold-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/Aniron-Bold-Regular-webfont.woff") format("woff");
+}
+
+@font-face {
+ font-family: "r";
+ src: url("/fonts/r-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/r-Regular-webfont.woff") format("woff");
+}
+
+.symbol_title {
+  font-family: "r";
+  font-size: 1em;
+}
+
+h1 {
+  font-family: "Aniron-Bold"; Arial;
+  font-size: 1.4em;
+  margin-top: 0px;
+  padding-top: 35px;
+  text-align: center;
+}
+
+.titre1 {
+  font-size: 1.4em;
+}
+
+.inline_text {
+  font-family: "Aniron-Bold"; Arial;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.symbol_title {
+  color: #373737;
+  font-size: 2em;
+}
+
+.list-inline {
+  display: flex;
+  justify-content: center;
+  color: #373737;
+  padding-top: 25px;
+
+}
+
+/* Section img-hover */
+
+.thumbnails {
+  padding-bottom: 50px;
+}
+
+.symbol {
+    color: orange;
+    font-size: 4em;
+    font-family: "r";
+}
+
+.img_sauron {
+  width: 100%;
+  opacity: 0.7;
+}
+
+.bloc {
+  transition: .5s ease;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #F8F8FF;
+  border-radius: 20px;
+  width: 80%;
+  opacity: 0.7;
+}
+
+.img_text {
+  font-size: 20px;
+  text-align: center;
+  font-family: "PartyBusiness";
+}
+
+.img_argent {
+  color: #F4A460;
+}
+
+.img_name {
+  transition: .5s ease;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  color: white;
+  font-size: 43px;
+  font-family: "PartyBusiness";
+}
+
+.img_bloc:hover .bloc {
+  opacity: 0;
+}
+
+.img_bloc:hover .img_name {
+  transition: .5s ease;
+  position: absolute;
+  top: 60%;
+  left: 28%;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+  font-family: "PartyBusiness";
+}
+
+.img_bloc:hover .img_sauron {
+  width: 100%;
+  opacity: 1;
+}
+
+.img_bloc {
+background-color: black;
+right: 4.3%;
+}
+
+.img_legend {
+  font-family: "PartyBusiness";
+  color: grey;
+  font-size: 25px;
+}
+
+.bloc_invisible {
+  transition: .5s ease;
+  position: absolute;
+  top: 20%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 20px;
+  width: 80%;
+}
+
+.img_text_gimli {
+    font-size: 50px;
+    text-align: center;
+    font-family: "PartyBusiness";
+    color: orange;
+}
+
+.img_bloc:hover .bloc_invisible {
+  opacity: 0;
+}
+
+/* Section contact */
+
+.contact {
+  background-color: #1B1E1E;
+}
+
+.contact_titre{
+  color: white;
+}
+
+.button {
+
+}
+
+.bloc_button {
+  padding-bottom: 40px;
+  padding-top: 25px;
+}
+
+.text_form {
+  color: white;
+  padding-bottom: 10px;
+}
+
+/* Section footer */
+
+footer {
+    background-color: #fc6020;
+}
+
+ul {
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+.li_color {
+  color: white;
+  font-family: "PartyBusiness";
+  font-size: 20px;
+}
